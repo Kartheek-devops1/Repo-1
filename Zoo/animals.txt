@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 Cat 
 Cow
-Tiger
-Octopus
+Cat 
+Lion
+Octoman
