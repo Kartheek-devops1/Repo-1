@@ -1,4 +1,4 @@
 Cow
 Cat 
-Tiger
+Lion
 Octoman
