@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-Cat 
-Cow
-Cat 
-Lion
-Octoman
