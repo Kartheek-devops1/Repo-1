@@ -105,7 +105,6 @@
       </plugin>
     </plugins>
   </build>
-    <distributionmanagement>
       <repository>
         <id>deployment</id>
         <name>Internal Release</name>
@@ -116,5 +115,4 @@
         <name>Snapshot Release</name>
         <url>http://localhost:8081/repository/maven-snapshots/</url>
       </snapshotrepository>    
-    </distributionmanagement>
 </project>
