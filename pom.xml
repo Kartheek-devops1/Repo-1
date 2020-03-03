@@ -29,22 +29,8 @@
       <version>${teavm.version}</version>
       <scope>provided</scope>
     </dependency>
-	<dependency>
-<distributionmanagement>
-      <repository>
-        <id>deployment</id>
-        <name>Internal Release</name>
-        <url>http://localhost:8081/repository/MVN_Proj-Release/</url>
-      </repository>
-      <snapshotrepository>
-        <id>deployment</id>
-        <name>Snapshot Release</name>
-        <url>http://localhost:8081/repository/maven-snapshots/</url>
-      </snapshotrepository> 
-</distributionmanagement>
-</dependency>
-
-    <!-- Servlet 3.1 specification -->
+	
+	    <!-- Servlet 3.1 specification -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
@@ -119,4 +105,18 @@
       </plugin>
     </plugins>
   </build>
+  <distributionmanagement>
+  <repositories>
+      <repository>
+        <id>deployment</id>
+        <name>Internal Release</name>
+        <url>http://localhost:8081/repository/MVN_Proj-Release/</url>
+      </repository>
+      <snapshotrepository>
+        <id>deployment</id>
+        <name>Snapshot Release</name>
+        <url>http://localhost:8081/repository/maven-snapshots/</url>
+      </snapshotrepository> 
+	</repositories>
+</distributionmanagement>
 </project>
