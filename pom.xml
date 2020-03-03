@@ -105,18 +105,4 @@
       </plugin>
     </plugins>
   </build>
-  <distributionmanagement>
-  <repositories>
-      <repository>
-        <id>deployment</id>
-        <name>Internal Release</name>
-        <url>http://localhost:8081/repository/MVN_Proj-Release/</url>
-      </repository>
-      <snapshotrepository>
-        <id>deployment</id>
-        <name>Snapshot Release</name>
-        <url>http://localhost:8081/repository/maven-snapshots/</url>
-      </snapshotrepository> 
-	</repositories>
-</distributionmanagement>
-</project>
+ </project>
