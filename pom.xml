@@ -105,4 +105,11 @@
       </plugin>
     </plugins>
   </build>
+	<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub Kartheek-devops1 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Kartheek-devops1/Repo-1</url>
+   </repository>
+</distributionManagement>
  </project>
