@@ -17,4 +17,4 @@ jobs:
 
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
-           mvn deploy -Dregistry=https://maven.pkg.github.com/Kartheek-devops1 -Dtoken=GH_TOKEN
+           mvn -B deploy --file pom.xml -Dregistry=https://maven.pkg.github.com/Kartheek-devops1 -Dtoken=GH_TOKEN
