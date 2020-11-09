@@ -17,5 +17,3 @@ jobs:
 
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
-    - name: Moving Artifacts to Packages
-      run: mvn deploy -Dregistry=https://maven.pkg.github.com/Kartheek-devops1 -Dtoken=GH_TOKEN
