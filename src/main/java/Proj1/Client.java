@@ -9,6 +9,5 @@ public class Client {
         HTMLElement div = document.createElement("div");
         div.appendChild(document.createTextNode("TeaVM generated element"));
         document.getBody().appendChild(div);
-        select * from db where uname = "test";
-    }
+           }
 }
